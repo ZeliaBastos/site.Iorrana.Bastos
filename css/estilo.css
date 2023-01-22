@@ -1,0 +1,432 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Katibeh", cursive;
+  font-size: 1.9em;
+  text-align: center;
+}
+.fonte-menor {
+  font-size: 0.8em;
+}
+.fonte2 {
+  font-family: "Allura", cursive;
+}
+.fonte3 {
+  font-family: "Jost", sans-serif;
+}
+.topper {
+  width: 35%;
+}
+.topper-1 {
+  width: 15%;
+  float: left;
+  margin-left: 30px;
+}
+.topper-2 {
+  width: 20%;
+}
+.flower-top {
+  width: 20%;
+}
+.flower-top-a {
+  width: 10%;
+}
+.topo {
+  background-image: url(../img/aleksander-vlad-jiVeo0i1EB4-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+a {
+  text-decoration: none;
+  color: #9a8455;
+}
+.navibar {
+  color: #9a8455;
+  font-family: "Jost", sans-serif;
+  font-size: 0.5em;
+  margin: 5px 0px;
+  background-color: #f7f5f4;
+  padding: 5px;
+  margin-bottom: auto;
+  position: fixed;
+  width: 100%;
+}
+.menu {
+  margin-right: 20px;
+  letter-spacing: 2px;
+}
+.sobre {
+  margin: 10px 150px 100px 150px;
+  line-height: 0.9;
+}
+.ava-img {
+  transform: rotate(353deg);
+  transform-origin: left top 0;
+}
+.ava-text {
+  text-align: justify;
+  font-size: 0.9em;
+}
+.avatar {
+  width: 40%;
+  float: left;
+  margin-right: 50px;
+}
+.listas li {
+  display: inline-block;
+  text-align: right;
+  line-height: 60px;
+}
+.for {
+  display: inline-block;
+  width: 20%;
+}
+.loc {
+  float: left;
+}
+.faixa {
+  margin: auto;
+}
+.conteiner,
+.identidade,
+.port-all {
+  margin: 100px 0px;
+}
+.identidade {
+  background-image: url(../img/yash-jeebaun-jMkwv17h_DM-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: right;
+  padding: 100px;
+  color: #f7f5f4;
+}
+.serviços {
+  display: inline-block;
+  max-width: 30%;
+  height: 350px;
+  box-sizing: border-box;
+  background-color: #f7f5f4;
+  box-shadow: 20px 20px 50px #6b3514;
+  padding: 20px;
+  border-radius: 50px 0px 50px 0px;
+}
+.flexa {
+  width: 70px;
+}
+.flexa:hover {
+  width: 90px;
+}
+
+button {
+  border-radius: 0px 17px 17px 17px;
+  padding: 6px 23px 6px 23px;
+  border: none;
+  font-size: 0.6em;
+  cursor: pointer;
+  color: #f7f5f4;
+  background-color: #757342;
+  margin-bottom: 10px;
+}
+.bn31 {
+  background-image: linear-gradient(to right, #6b3514 0%, #00a950 100%);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #6b3514;
+  display: block;
+  height: 50px;
+  font-size: 0.8em;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 9em;
+  z-index: 2;
+}
+
+.bn31:hover {
+  color: #fff;
+}
+
+.bn31 .bn31span {
+  align-items: center;
+  background: #faf9f4;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.bn31:hover .bn31span {
+  background: transparent;
+}
+.faixa-1 {
+  padding: 15px;
+  background-color: #c9c2a8;
+  margin-top: 20px;
+}
+.depoimentos {
+  background-color: #c9c2a8;
+  padding: 2px;
+}
+.slide-controller:nth-child(1):checked ~ .slide-show .slides-list {
+  --selected-item: 0;
+}
+.slide-controller:nth-child(2):checked ~ .slide-show .slides-list {
+  --selected-item: 1;
+}
+.slide-controller:nth-child(3):checked ~ .slide-show .slides-list {
+  --selected-item: 2;
+}
+.slide-controller:nth-child(4):checked ~ .slide-show .slides-list {
+  --selected-item: 3;
+}
+.slide-show {
+  overflow: hidden;
+}
+.slides-list {
+  --selected-item: 0;
+  --total-items: 4;
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;
+  position: relative;
+  left: calc(var(--selected-item) * -100%);
+  width: calc(var(--total-items) * 100%);
+  transition: left 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+.text-dep {
+  margin: 0px 100px;
+}
+.port-all {
+  box-sizing: border-box;
+}
+.port {
+  text-align: center;
+  display: inline;
+}
+.ptl {
+  margin-bottom: auto;
+  margin-right: 100px;
+  text-align: right;
+}
+hr {
+  margin-top: 0px;
+}
+.port-container {
+  margin: 1px;
+  box-sizing: border-box;
+  max-width: 28%;
+}
+.port-container:hover {
+  max-width: 32%;
+  cursor: pointer;
+}
+.icon {
+  width: 30px;
+  padding: 10px;
+}
+.contato {
+  background-color: black;
+  color: #fcf7e1;
+  padding: 5px;
+  font-size: 0.8em;
+}
+.img-end {
+  width: 40%;
+  float: left;
+}
+.contact {
+  margin-bottom: 0px;
+}
+.final-end {
+  display: inline-block;
+  max-width: 50%;
+}
+.end {
+  cursor: pointer;
+}
+.copy {
+  font-family: "Jost", sans-serif;
+  font-size: 0.4em;
+  padding: 10px;
+  background-color: #161616;
+  color: #f7f5f4;
+  margin-bottom: 10px;
+}
+.whats {
+  padding: 20px;
+  background-color: #f7f5f4;
+}
+.container-1,
+.container-2,
+.container-3,
+.sobre-1 {
+  background-color: #f7f5f4;
+}
+.container-123 {
+  display: inline;
+  box-sizing: border-box;
+}
+.img-id {
+  width: 48%;
+  float: left;
+  margin-right: 30px;
+}
+.text-id {
+  width: 50%;
+  padding: 8px;
+}
+li {
+  list-style: none;
+}
+.loc-log {
+  text-align: end;
+}
+.logo {
+  max-width: 100px;
+  margin-top: 0px;
+}
+.logo-2 {
+  width: 70%;
+}
+.avatar-1 {
+  width: 500px;
+  border-radius: 50px 0px 0px 50px;
+}
+.sobre-1-1 {
+  background-color: #757342;
+  text-align: left;
+  margin-right: 45px;
+}
+.sobre-1-2 {
+  width: 20%;
+}
+.sobre-mim {
+  max-width: 33%;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: justify;
+  margin: 0px 40px;
+}
+@media (max-width: 720px) {
+  body {
+    font-size: 1.5em;
+  }
+  .navibar {
+    width: auto;
+    font-size: 0.4em;
+  }
+  .topper-1 {
+    margin-left: auto;
+  }
+  .menu {
+    letter-spacing: normal;
+    margin-right: 5px;
+  }
+  .listas li {
+    line-height: 0px;
+  }
+  .topo {
+    width: 100%;
+    height: 300px;
+  }
+  .faixa-1 {
+    padding: 2px;
+  }
+  .for {
+    width: 45%;
+  }
+  h4 {
+    font-size: 0.9em;
+  }
+  .conteiner,
+  .port-all {
+    margin: auto;
+  }
+  .serviços {
+    max-width: 80%;
+    padding: 10px;
+    max-height: 235px;
+  }
+  .identidade {
+    margin: 50px 0px;
+    padding: 20px;
+  }
+  .flexa {
+    width: 50px;
+  }
+  h1 {
+    font-size: 1.4em;
+  }
+  .ptl {
+    margin-right: 30px;
+  }
+  .sobre {
+    margin: 10px 30px 20px 30px;
+  }
+  button {
+    font-size: 0.4em;
+  }
+  .depoimentos {
+    margin-top: 20px;
+    height: 250px;
+  }
+  h3 {
+    margin: 10px 0px 5px 0px;
+    font-size: 0.9em;
+  }
+  .slide-show {
+    font-size: 0.7em;
+  }
+  .contact {
+    margin: 5px;
+  }
+  .icon {
+    width: 20px;
+    padding: 0px;
+  }
+  .final-end {
+    font-size: 0.6em;
+  }
+  .final-end .listas {
+    margin-right: 35px;
+  }
+  .listas .icon {
+    width: 15px;
+    padding: 1px;
+  }
+  .logo {
+    width: 50px;
+  }
+  h2 {
+    margin: auto;
+  }
+  .container-123 {
+    font-size: 0.6em;
+  }
+  .text-id {
+    padding: 0px;
+  }
+  .text-id ul {
+    margin-right: 30px;
+  }
+  .avatar-1 {
+    width: 200px;
+  }
+  .sobre-mim {
+    max-width: none;
+  }
+  .sobre-mim p {
+    font-size: 0.7em;
+  }
+  .logo-2 {
+    width: 5%;
+    float: right;
+  }
+}
