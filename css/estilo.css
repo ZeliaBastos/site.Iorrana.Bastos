@@ -246,7 +246,7 @@ hr {
 }
 .final-end {
   display: inline-block;
-  max-width: 50%;
+  max-width: 45%;
 }
 .end {
   cursor: pointer;
@@ -259,10 +259,7 @@ hr {
   color: #f7f5f4;
   margin-bottom: 10px;
 }
-.whats {
-  padding: 20px;
-  background-color: #f7f5f4;
-}
+
 .container-1,
 .container-2,
 .container-3,
@@ -392,14 +389,14 @@ li {
     padding: 0px;
   }
   .final-end {
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
   .final-end .listas {
     margin-right: 35px;
   }
   .listas .icon {
     width: 15px;
-    padding: 1px;
+    padding: 2px;
   }
   .logo {
     width: 50px;
