@@ -418,12 +418,15 @@ li {
   }
   .sobre-mim {
     max-width: none;
+    display: block;
   }
   .sobre-mim p {
     font-size: 0.7em;
   }
+  .sobre-1-1 {
+    margin: 0px 0px 15px 0px;
+  }
   .logo-2 {
     width: 5%;
-    float: right;
   }
 }
