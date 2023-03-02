@@ -215,26 +215,22 @@ hr {
   cursor: pointer;
 }
 .icon {
-  width: 30px;
+  width: 25px;
   padding: 10px;
 }
 .contato {
   background-color: black;
   color: #fcf7e1;
   padding: 5px;
-  font-size: 0.8em;
+  font-size: 0.6em;
   margin-top: 50px;
-}
-.img-end {
-  width: 25%;
-  float: left;
-}
-.contact {
-  margin-bottom: 0px;
+  box-sizing: border-box;
 }
 .final-end {
   display: inline-block;
   max-width: 45%;
+  text-align: justify;
+  padding: 10px;
 }
 .end {
   cursor: pointer;
