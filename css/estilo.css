@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Katibeh", cursive;
-  font-size: 1.9em;
+  font-size: 1.6em;
   text-align: center;
 }
 .fonte-menor {
@@ -40,7 +40,7 @@ a {
 .navibar {
   color: #9a8455;
   font-family: "Jost", sans-serif;
-  font-size: 0.4em;
+  font-size: 0.45em;
   background-color: #f7f5f4;
   position: fixed;
   width: 100%;
@@ -68,6 +68,10 @@ a {
 .listas li {
   display: inline-block;
   line-height: 60px;
+}
+.midias {
+  margin: auto;
+  padding-left: initial;
 }
 .for {
   display: inline-block;
@@ -109,11 +113,12 @@ a {
 }
 button {
   border-radius: 0px;
-  padding: 6px 23px 6px 23px;
+  padding: 15px 23px 15px 23px;
   border: solid 1px;
   font-size: 0.5em;
   cursor: pointer;
   color: #9a8455;
+  background: #ffffff;
   margin-bottom: 10px;
 }
 .bn31 {
@@ -216,24 +221,25 @@ hr {
 }
 .icon {
   width: 25px;
-  padding: 10px;
+  padding: 5px;
+}
+.a-i {
+  color: #ffffff;
 }
 .contato {
   background-color: black;
-  color: #fcf7e1;
+  color: #ffffff;
   padding: 5px;
-  font-size: 0.6em;
+  font-size: 0.8em;
   margin-top: 50px;
-  box-sizing: border-box;
 }
 .final-end {
+  vertical-align: top;
   display: inline-block;
+  box-sizing: border-box;
   max-width: 45%;
   text-align: justify;
-  padding: 10px;
-}
-.end {
-  cursor: pointer;
+  padding: 30px;
 }
 .copy {
   font-family: "Jost", sans-serif;
@@ -242,13 +248,6 @@ hr {
   background-color: #161616;
   color: #f7f5f4;
   margin-bottom: 10px;
-}
-
-.container-1,
-.container-2,
-.container-3,
-.sobre-1 {
-  background-color: #f7f5f4;
 }
 .container-123 {
   display: inline;
@@ -270,8 +269,7 @@ li {
   text-align: end;
 }
 .logo {
-  max-width: 100px;
-  margin-top: 0px;
+  max-width: 50px;
 }
 .logo-2 {
   width: 70%;
