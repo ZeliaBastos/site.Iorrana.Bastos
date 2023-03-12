@@ -52,21 +52,29 @@ a {
   margin-right: 20px;
 }
 .sobre {
-  margin: 10px 150px 100px 150px;
-  line-height: 0.9;
+  margin: 10px 100px 10px 10px;
+  line-height: 1.4;
 }
-.ava-img {
+.ava {
+  display: inline-block;
+  max-width: 45%;
+  box-sizing: border-box;
+}
+/*
+.imge {
   transform: rotate(353deg);
   transform-origin: left top 0;
 }
-.ava-text {
+*/
+.text {
   text-align: justify;
-  font-size: 0.8em;
+  font-size: 0.7em;
+  color: #9a8455;
+  vertical-align: top;
+  padding: 150px 50px;
 }
 .avatar {
-  width: 40%;
-  float: left;
-  margin-right: 50px;
+  width: 80%;
 }
 .listas li {
   display: inline-block;
@@ -75,6 +83,9 @@ a {
 .midias {
   margin: auto;
   padding-left: initial;
+}
+.ul listas midias {
+  padding: 30px;
 }
 .for {
   display: inline-block;
@@ -111,7 +122,7 @@ a {
   font-size: 0.7em;
 }
 .flexa {
-  width: 70px;
+  width: 30px;
 }
 button {
   border-radius: 0px;
@@ -129,7 +140,7 @@ button:hover {
 }
 .faixa-1 {
   padding: 15px;
-  background-color: #c9c2a8;
+  background-color: #f7f5f4;
   margin-top: 20px;
   font-size: 0.7em;
 }
@@ -213,16 +224,17 @@ hr {
   background-color: black;
   color: #ffffff;
   padding: 5px;
-  font-size: 0.6em;
+  font-size: 0.5em;
   margin-top: 50px;
 }
+
 .final-end {
   vertical-align: top;
   display: inline-block;
   box-sizing: border-box;
-  max-width: 45%;
+  max-width: 33%;
   text-align: justify;
-  padding: 30px;
+  padding: 50px;
 }
 .copy {
   font-family: "Jost", sans-serif;
@@ -244,6 +256,7 @@ hr {
 .text-id {
   width: 50%;
   padding: 8px;
+  font-size: 0.8em;
 }
 li {
   list-style: none;
@@ -252,7 +265,7 @@ li {
   text-align: end;
 }
 .logo {
-  max-width: 50px;
+  max-width: 40px;
 }
 .logo-2 {
   width: 70%;
@@ -269,6 +282,11 @@ li {
 .sobre-1-2 {
   width: 12%;
   padding: 8px;
+}
+.texto-sobre {
+  font-size: 0.8em;
+  line-height: 1.4;
+  padding: 60px;
 }
 .sobre-mim {
   max-width: 33%;
@@ -333,13 +351,21 @@ li {
   }
   .sobre {
     margin: 10px 30px 20px 30px;
+    font-size: 0.5em;
+  }
+  .text {
+    padding: 0px;
+    font-size: 0.7em;
   }
   button {
     font-size: 0.4em;
   }
   .depoimentos {
     margin-top: 20px;
-    height: 250px;
+    height: 180px;
+  }
+  .text-dep {
+    margin: 0px 10px;
   }
   h3 {
     margin: 10px 0px 5px 0px;
@@ -357,16 +383,14 @@ li {
   }
   .final-end {
     font-size: 0.7em;
-  }
-  .final-end .listas {
-    margin-right: 35px;
+    padding: 8px;
   }
   .listas .icon {
     width: 12px;
     padding: 0px;
   }
   .logo {
-    width: 50px;
+    width: 25px;
   }
   h2 {
     margin: auto;
