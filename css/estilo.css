@@ -475,6 +475,7 @@ li {
   .text-id {
     padding: 0px;
     font-size: 0.5em;
+    line-height: 13px;
   }
   .text-id ul {
     margin-right: 30px;
