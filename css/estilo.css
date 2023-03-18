@@ -415,6 +415,10 @@ li {
   }
   .ava {
     max-width: 49%;
+    vertical-align: top;
+  }
+  .imge {
+    margin-top: 70px;
   }
   button,
   .container-123 button {
@@ -439,7 +443,10 @@ li {
   }
   .icon {
     width: 20px;
-    padding: 0px;
+    padding: 3px;
+  }
+  ul {
+    margin-block: auto;
   }
   .final-end {
     font-size: 0.7em;
@@ -447,7 +454,7 @@ li {
   }
   .listas .icon {
     width: 12px;
-    padding: 0px;
+    padding: 3px;
   }
   .logo {
     width: 25px;
