@@ -408,15 +408,17 @@ li {
   }
   .sobre {
     margin: 10px 30px 20px 30px;
-    font-size: 0.5em;
+    font-size: 0.7em;
   }
   .text {
     padding: 0px;
-    font-size: 0.7em;
+  }
+  .ava {
+    max-width: 49%;
   }
   button,
   .container-123 button {
-    font-size: 0.4em;
+    font-size: 0.6em;
   }
   .depoimentos {
     margin-top: 20px;
@@ -427,10 +429,10 @@ li {
   }
   h3 {
     margin: 10px 0px 5px 0px;
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
   .slide-show {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   .contact {
     margin: 5px;
@@ -455,7 +457,7 @@ li {
   }
   h2 {
     margin: auto;
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
   .container-123 {
     font-size: 0.6em;
