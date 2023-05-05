@@ -21,9 +21,10 @@ body {
   width: 35%;
 }
 .topper-1 {
-  width: 13%;
+  width: 20%;
   float: left;
   margin-left: 120px;
+  margin-top: 20px;
 }
 .topper-2 {
   width: 20%;
@@ -40,10 +41,7 @@ a {
 }
 .navibar {
   color: #9a8455;
-  font-family: "Jost", sans-serif;
-  font-size: 0.45em;
-  background-color: #f7f5f4;
-  position: fixed;
+  font-size: 0.6em;
   width: 100%;
 }
 .menu {
@@ -83,9 +81,6 @@ a {
   display: inline-block;
   width: 20%;
 }
-.loc {
-  float: left;
-}
 .faixa {
   margin: auto;
 }
@@ -110,12 +105,11 @@ a {
   background-color: #f7f5f4;
   box-shadow: 20px 20px 50px #c9c2a8;
   padding: 30px;
-  border-radius: 50px 0px 50px 0px;
   font-size: 0.7em;
   color: #9a8455;
 }
 .flexa {
-  width: 30px;
+  text-align: right;
 }
 button {
   border-radius: 0px;
@@ -160,12 +154,18 @@ button:hover {
 .slide-controller:nth-child(4):checked ~ .slide-show .slides-list {
   --selected-item: 3;
 }
+.slide-controller:nth-child(5):checked ~ .slide-show .slides-list {
+  --selected-item: 4;
+}
+.slide-controller:nth-child(6):checked ~ .slide-show .slides-list {
+  --selected-item: 5;
+}
 .slide-show {
   overflow: hidden;
 }
 .slides-list {
   --selected-item: 0;
-  --total-items: 4;
+  --total-items: 6;
   list-style-type: none;
   margin: 10px 0;
   padding: 0;
@@ -257,6 +257,7 @@ hr {
   font-size: 0.7em;
   vertical-align: top;
   color: #9a8455;
+  text-align: left;
 }
 li {
   list-style: none;
@@ -358,6 +359,7 @@ li {
   }
   .topper-1 {
     margin-left: auto;
+    margin-top: auto;
   }
   .menu {
     letter-spacing: normal;
@@ -388,6 +390,7 @@ li {
     padding: 15px;
     max-height: 200px;
     font-size: 0.6em;
+    margin: 5px;
   }
   .identidade {
     margin: 50px 0px;
@@ -396,9 +399,6 @@ li {
   }
   .fonte-menor {
     font-size: 0.6em;
-  }
-  .flexa {
-    width: 20px;
   }
   h1 {
     font-size: 1.2em;
@@ -436,7 +436,7 @@ li {
     font-size: 0.7em;
   }
   .slide-show {
-    font-size: 0.8em;
+    font-size: 0.5em;
   }
   .contact {
     margin: 5px;
