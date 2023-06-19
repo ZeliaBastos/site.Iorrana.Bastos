@@ -364,6 +364,24 @@ li {
   background-position: center;
   height: 500px;
 }
+.ind-it {
+  margin: 80px auto;
+}
+.a-lr {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 45%;
+  font-size: 0.8em;
+  padding: 8px;
+}
+.img-lr {
+  max-width: 100%;
+}
+/*
+.app {
+  display: inline;
+  width: 45%;
+}*/
 @media (max-width: 720px) {
   body {
     font-size: 1.5em;
