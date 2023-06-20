@@ -26,9 +26,6 @@ body {
   margin-left: 120px;
   margin-top: 20px;
 }
-.topper-2 {
-  width: 20%;
-}
 .topo {
   background-image: url(../img/aleksander-vlad-jiVeo0i1EB4-unsplash.jpg);
   background-size: cover;
@@ -197,12 +194,6 @@ button:hover {
 hr {
   margin-top: 0px;
 }
-/*
-.line-1 {
-  text-align: left;
-  margin-left: 100px;
-}
-*/
 .line-4 {
   text-align: right;
   margin-right: 100px;
@@ -352,6 +343,18 @@ li {
   text-align: justify;
   margin: 0px 30px 0px 40px;
 }
+.topper-2 {
+  width: 15%;
+  text-align: left;
+}
+.topo-ident {
+  text-align: end;
+}
+.cena {
+  margin: auto 120px;
+  text-align: left;
+  font-size: 0.8em;
+}
 .topo-uzi {
   background-image: url(../img/uzi/5.jpg);
   background-size: cover;
@@ -370,18 +373,23 @@ li {
 .a-lr {
   display: inline-block;
   box-sizing: border-box;
-  width: 45%;
+  width: 48%;
   font-size: 0.8em;
   padding: 8px;
+}
+.a-lr p {
+  text-align: justify;
 }
 .img-lr {
   max-width: 100%;
 }
-/*
+.text-lr {
+  max-width: 30%;
+}
 .app {
-  display: inline;
-  width: 45%;
-}*/
+  max-width: 95%;
+  margin: 10px 0px;
+}
 @media (max-width: 720px) {
   body {
     font-size: 1.5em;
@@ -533,5 +541,31 @@ li {
   .logo-2 {
     width: 5%;
     float: right;
+  }
+  .topper-2 {
+    width: 25%;
+  }
+  .topo-atten,
+  .topo-uzi {
+    height: 200px;
+  }
+  .cena {
+    font-size: 0.7em;
+    margin: auto 50px;
+  }
+  .ind-it {
+    margin: 60px 50px;
+  }
+  .a-lr {
+    font-size: 0.7em;
+    width: auto;
+    padding: 0;
+  }
+  .text-lr {
+    max-width: 100%;
+  }
+  .img-lr,
+  .app {
+    max-width: 80%;
   }
 }
